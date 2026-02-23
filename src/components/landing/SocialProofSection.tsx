@@ -40,20 +40,6 @@ const SocialProofSection = () => {
             </div>
           </FadeIn>
         </div>
-
-        {/* CTA mid-page */}
-        <FadeIn delay={0.4}>
-          <div className="text-center">
-            <a
-              href={BOOKING_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="gradient-cta text-primary-foreground h-14 px-10 rounded-full inline-flex items-center text-base font-medium transition-all hover:opacity-90 hover:scale-[1.02]"
-            >
-              → Réserver mon créneau de découverte
-            </a>
-          </div>
-        </FadeIn>
       </div>
     </section>
   );

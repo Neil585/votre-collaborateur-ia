@@ -11,7 +11,7 @@ import MobileCTA from "@/components/landing/MobileCTA";
 
 const Index = () => {
   return (
-    <main className="pb-16 md:pb-0">
+    <main>
       <StickyHeader />
       <HeroSection />
       <ProblemSection />
@@ -21,7 +21,7 @@ const Index = () => {
       <FAQSection />
       <CTASection />
       <Footer />
-      <MobileCTA />
+      
     </main>
   );
 };

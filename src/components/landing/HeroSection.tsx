@@ -56,8 +56,7 @@ const HeroSection = () => {
 
         <FadeIn delay={0.9}>
           <div className="flex flex-wrap justify-center gap-4 mt-14">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-success/10 text-success text-sm font-mono">
-              <span className="w-1.5 h-1.5 rounded-full bg-success" />
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-subtle text-ivory text-sm font-mono">
               Données 100% locales
             </span>
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-subtle text-ivory text-sm font-mono">

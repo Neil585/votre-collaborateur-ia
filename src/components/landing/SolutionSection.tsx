@@ -24,7 +24,7 @@ const SolutionSection = () => {
     <section className="bg-background py-24 md:py-32">
       <div className="max-w-6xl mx-auto px-6">
         <FadeIn>
-          <h2 className="text-3xl md:text-[56px] text-foreground text-center mb-16 md:mb-20 text-balance">
+          <h2 className="text-2xl md:text-[38px] lg:text-[46px] text-foreground text-center mb-12 md:mb-16 text-balance leading-[1.25]">
             Rencontrez votre nouvel employé.
             <br className="hidden md:block" />
             Celui qui change tout.

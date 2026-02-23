@@ -7,7 +7,7 @@ const CTASection = () => {
     <section className="bg-background py-24 md:py-32">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <FadeIn>
-          <h2 className="text-3xl md:text-[56px] text-foreground mb-8 text-balance">
+          <h2 className="text-2xl md:text-[38px] lg:text-[46px] text-foreground mb-8 text-balance leading-[1.25]">
             Votre prochain collaborateur
             <br className="hidden md:block" />
             n'attend qu'un signal.

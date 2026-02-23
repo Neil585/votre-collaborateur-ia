@@ -21,7 +21,7 @@ const HeroSection = () => {
         </FadeIn>
 
         <FadeIn delay={0.3}>
-          <h1 className="text-[40px] md:text-[72px] leading-[1.1] text-foreground mb-8 text-balance">
+          <h1 className="text-[32px] md:text-[56px] lg:text-[64px] leading-[1.2] md:leading-[1.2] text-foreground mb-8 text-balance">
             Votre entreprise vient
             <br className="hidden md:block" /> de recruter son meilleur
             <br className="hidden md:block" /> collaborateur.

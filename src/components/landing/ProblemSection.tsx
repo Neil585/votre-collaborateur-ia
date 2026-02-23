@@ -12,7 +12,7 @@ const ProblemSection = () => {
           </FadeIn>
 
           <FadeIn delay={0.15}>
-            <h2 className="text-3xl md:text-[48px] text-foreground mb-8 leading-[1.15]">
+            <h2 className="text-2xl md:text-[36px] lg:text-[42px] text-foreground mb-8 leading-[1.25]">
               L'IA existe.
               <br />
               Vous le savez.

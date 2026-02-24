@@ -16,25 +16,22 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-3xl mx-auto px-6 text-center py-32">
         <FadeIn delay={0.1}>
           <p className="font-mono text-sm tracking-[0.25em] text-primary mb-10 uppercase">
-            Pour les dirigeants qui n'ont plus de temps à perdre
+            AI-Liberty
           </p>
         </FadeIn>
 
         <FadeIn delay={0.3}>
           <h1 className="text-[32px] md:text-[56px] lg:text-[64px] leading-[1.2] md:leading-[1.2] text-foreground mb-8 text-balance">
-            Votre entreprise vient
-            <br className="hidden md:block" /> de recruter son meilleur
-            <br className="hidden md:block" /> collaborateur.
+            Votre premier employé IA.
+            <br className="hidden md:block" /> Opérationnel en 30 jours.
           </h1>
         </FadeIn>
 
         <FadeIn delay={0.5}>
           <p className="text-lg md:text-xl text-ivory/70 max-w-[560px] mx-auto mb-12 leading-relaxed">
-            Il ne prend pas de congés. Il ne rate pas de deadlines.
+            Un collaborateur IA formé sur vos données,
             <br className="hidden md:block" />
-            Il connaît votre entreprise sur le bout des doigts.
-            <br className="hidden md:block" />
-            Et il commence à travailler dans moins de 30 jours.
+            installé chez vous, qui travaille 24h/24.
           </p>
         </FadeIn>
 

@@ -4,8 +4,10 @@ const BOOKING_URL = "https://calendly.com/ailiberty/30min";
 
 const CTASection = () => {
   return (
-    <section className="bg-background py-24 md:py-32">
-      <div className="max-w-4xl mx-auto px-6 text-center">
+    <section className="bg-background py-24 md:py-32 relative overflow-hidden">
+      {/* Subtle ambient radials */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-primary/[0.04] rounded-full blur-[100px] -translate-y-1/2" />
+      <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
         <FadeIn>
           <h2 className="text-2xl md:text-[38px] lg:text-[46px] text-foreground mb-8 text-balance leading-[1.25]">
             Votre prochain collaborateur

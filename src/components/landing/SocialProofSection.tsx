@@ -5,8 +5,10 @@ const BOOKING_URL = "https://calendly.com/ailiberty/30min";
 
 const SocialProofSection = () => {
   return (
-    <section className="bg-background-alt py-24 md:py-32">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="bg-background-alt py-24 md:py-32 relative overflow-hidden">
+      {/* Subtle glow behind stats */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-primary/[0.03] rounded-full blur-[120px]" />
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
         <FadeIn>
           <p className="font-mono text-sm tracking-[0.25em] text-primary mb-12 uppercase text-center">
             Ce que ça change, concrètement

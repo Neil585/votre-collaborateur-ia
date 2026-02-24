@@ -1,9 +1,13 @@
 import FadeIn from "./FadeIn";
+import problemVisual from "@/assets/problem-visual.webp";
 
 const ProblemSection = () => {
   return (
-    <section className="bg-background-alt py-24 md:py-32">
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+    <section className="bg-background-alt py-24 md:py-32 relative overflow-hidden">
+      {/* Subtle radial glow */}
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/[0.03] rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3" />
+
+      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center relative z-10">
         <div>
           <FadeIn>
             <p className="font-mono text-sm tracking-[0.25em] text-primary mb-8 uppercase">
@@ -37,25 +41,15 @@ const ProblemSection = () => {
           </FadeIn>
         </div>
 
-        {/* Abstract illustration - flow lines */}
         <FadeIn delay={0.4}>
-          <div className="relative h-80 md:h-[400px] flex items-center justify-center">
-            <svg viewBox="0 0 400 400" className="w-full h-full opacity-30" fill="none">
-              {[0, 1, 2, 3, 4, 5, 6].map((i) => (
-                <path
-                  key={i}
-                  d={`M 0 ${120 + i * 30} Q 100 ${100 + i * 25 + Math.sin(i) * 20} 200 ${130 + i * 28} T 400 ${150 + i * 20}`}
-                  stroke="hsl(var(--muted-foreground))"
-                  strokeWidth="1.5"
-                  strokeDasharray={i % 2 === 0 ? "8 4" : "none"}
-                  opacity={0.4 + i * 0.08}
-                />
-              ))}
-              {/* Blockage in the middle */}
-              <circle cx="200" cy="200" r="40" fill="hsl(var(--muted))" opacity="0.5" />
-              <line x1="175" y1="175" x2="225" y2="225" stroke="hsl(var(--muted-foreground))" strokeWidth="2" opacity="0.6" />
-              <line x1="225" y1="175" x2="175" y2="225" stroke="hsl(var(--muted-foreground))" strokeWidth="2" opacity="0.6" />
-            </svg>
+          <div className="relative h-80 md:h-[460px] rounded-2xl overflow-hidden">
+            <img
+              src={problemVisual}
+              alt="Enchevêtrement complexe symbolisant le chaos organisationnel"
+              className="w-full h-full object-cover opacity-60"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background-alt via-transparent to-transparent" />
           </div>
         </FadeIn>
       </div>

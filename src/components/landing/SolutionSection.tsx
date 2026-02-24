@@ -21,8 +21,10 @@ const cards = [
 
 const SolutionSection = () => {
   return (
-    <section className="bg-background py-24 md:py-32">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="bg-background py-24 md:py-32 relative overflow-hidden">
+      {/* Subtle ambient glow */}
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-primary/[0.02] rounded-full blur-[100px] translate-y-1/2 -translate-x-1/4" />
+      <div className="max-w-6xl mx-auto px-6 relative z-10">
         <FadeIn>
           <h2 className="text-2xl md:text-[38px] lg:text-[46px] text-foreground text-center mb-12 md:mb-16 text-balance leading-[1.25]">
             Rencontrez votre nouvel employé.

@@ -10,19 +10,15 @@ const CTASection = () => {
       <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
         <FadeIn>
           <h2 className="text-2xl md:text-[38px] lg:text-[46px] text-foreground mb-8 text-balance leading-[1.25]">
-            Votre prochain collaborateur
-            <br className="hidden md:block" />
-            n'attend qu'un signal.
+            Prêt à commencer ?
           </h2>
         </FadeIn>
 
         <FadeIn delay={0.15}>
           <p className="text-lg md:text-xl text-ivory/70 max-w-xl mx-auto mb-12 leading-relaxed">
-            Réservez un entretien de 30 minutes.
+            30 minutes pour comprendre ce que l'IA peut faire pour vous.
             <br className="hidden md:block" />
-            On vous explique tout. Vous repartez avec une vision claire.
-            <br className="hidden md:block" />
-            Aucun engagement. Aucun jargon.
+            Sans engagement.
           </p>
         </FadeIn>
 

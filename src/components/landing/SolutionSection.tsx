@@ -27,9 +27,7 @@ const SolutionSection = () => {
       <div className="max-w-6xl mx-auto px-6 relative z-10">
         <FadeIn>
           <h2 className="text-2xl md:text-[38px] lg:text-[46px] text-foreground text-center mb-12 md:mb-16 text-balance leading-[1.25]">
-            Rencontrez votre nouvel employé.
-            <br className="hidden md:block" />
-            Celui qui change tout.
+            Ce qu'il fait pour vous.
           </h2>
         </FadeIn>
 

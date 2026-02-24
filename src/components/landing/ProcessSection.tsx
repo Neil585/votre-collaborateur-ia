@@ -25,8 +25,10 @@ const steps = [
 
 const ProcessSection = () => {
   return (
-    <section className="bg-background py-24 md:py-32">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="bg-background py-24 md:py-32 relative overflow-hidden">
+      {/* Subtle grid pattern overlay */}
+      <div className="absolute inset-0 opacity-[0.015]" style={{ backgroundImage: 'radial-gradient(circle, hsl(var(--primary)) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
+      <div className="max-w-5xl mx-auto px-6 relative z-10">
         <FadeIn>
           <p className="font-mono text-sm tracking-[0.25em] text-primary mb-12 uppercase text-center">
             De l'appel à l'opérationnel

@@ -21,9 +21,9 @@ const HeroSection = () => {
         </FadeIn>
 
         <FadeIn delay={0.3}>
-          <h1 className="text-[32px] md:text-[56px] lg:text-[64px] leading-[1.2] md:leading-[1.2] text-foreground mb-8 text-balance">
-            Votre premier employé IA.
-            <br className="hidden md:block" /> Opérationnel en 30 jours.
+          <h1 className="text-[32px] md:text-[56px] lg:text-[64px] leading-[1.15] md:leading-[1.15] text-foreground mb-8">
+            Votre premier
+            <br /> employé IA.
           </h1>
         </FadeIn>
 
